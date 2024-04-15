@@ -1,0 +1,44 @@
+.intro {
+    &__container {
+        padding: 144px 0 60px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &::before {
+        }
+    }
+
+    &__content {
+        padding: 141px 0px 0px 0px;
+        max-width: 603px;
+    }
+
+    &__links {
+        padding: 35px 0px 0px 0px;
+
+        & > *:not(:last-child) {
+            margin: 0px 39px 0px 0px;
+        }
+    }
+
+    &__link {
+        color: $main-color;
+        font-weight: 600;
+        letter-spacing: 3%;
+        border-bottom: 1.5px solid $main-color;
+    }
+    &__image {
+        position: absolute;
+        width: 100vw;
+        height: 846px;
+        right: 497px;
+        top: 0;
+        transform: translate(100%, 0);
+        z-index: -1;
+
+        img {
+            border-radius: 0px 0px 0px 100px;
+        }
+    }
+}

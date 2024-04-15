@@ -4,3 +4,22 @@
     border-radius: 25px;
     padding: 12px 39px;
 }
+
+.block-text {
+    &__title {
+        font-family: Merriweather;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 63px;
+
+        &:not(:last-child) {
+            margin: 0px 0px 35px 0px;
+        }
+    }
+
+    &__text {
+        &:not(:last-child) {
+            margin: 0px 0px 25px 0px;
+        }
+    }
+}
