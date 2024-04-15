@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Mulish;
+  font-size: 20px;
+  color: #000;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1230px;
+  box-sizing: content-box;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.ibg {
+  position: relative;
+}
+.ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button {
+  background-color: #323e50;
+  color: #fff;
+  border-radius: 25px;
+  padding: 12px 39px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.header__container {
+  display: flex;
+  min-height: 144px;
+  align-items: center;
+}
+.header__logo {
+  color: inherit;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  max-width: 195px;
+  margin: 0px 129px 0px 0px;
+}
+.header__menu {
+  flex: 1 1 auto;
+}
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item:not(:last-child) {
+  margin: 0px 69px 0px 0px;
+}
+.menu__link {
+  color: #323e50;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 3%;
+}
+.menu__link-active {
+  color: #817b66;
+  font-weight: 800;
+}/*# sourceMappingURL=main.css.map */

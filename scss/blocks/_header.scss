@@ -1,0 +1,58 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    &__container {
+        display: flex;
+        min-height: 144px;
+        align-items: center;
+    }
+
+    &__logo {
+        color: inherit;
+        font-family: Merriweather;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        max-width: 195px;
+        margin: 0px 129px 0px 0px;
+    }
+
+    &__menu {
+        flex: 1 1 auto;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.menu {
+    display: flex;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item:not(:last-child) {
+        margin: 0px 69px 0px 0px;
+    }
+
+    &__link {
+        color: $secondary-color;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 3%;
+    }
+    &__link-active {
+        color: $main-color;
+        font-weight: 800;
+    }
+}
+.button {
+}
