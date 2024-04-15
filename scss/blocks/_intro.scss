@@ -1,12 +1,9 @@
 .intro {
     &__container {
-        padding: 144px 0 60px;
+        padding: 144px 15px 262px;
         display: flex;
         align-items: center;
         position: relative;
-
-        &::before {
-        }
     }
 
     &__content {

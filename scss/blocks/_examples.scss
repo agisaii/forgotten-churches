@@ -1,0 +1,72 @@
+.examples {
+    background-color: $bg-color;
+    &__container {
+        padding: 60px 0;
+    }
+
+    &__content {
+        margin: 0px 0px 60px 0px;
+        span {
+            display: flex;
+            margin: 0 auto;
+            background-color: #000;
+            width: 285px;
+            height: 1px;
+        }
+    }
+
+    &__content-text {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 890px;
+        padding: 25px 0;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    &__row {
+        display: flex;
+        margin: 0px 0px 65px 0px;
+    }
+
+    &__text {
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+.example {
+    &__image {
+        position: relative;
+        &:not(:last-child) {
+            margin: 0px 49px 0px 0px;
+        }
+        img {
+            border-radius: 20px;
+        }
+    }
+    &__image-desc {
+        border-radius: 20px;
+        height: 259px;
+        background: linear-gradient(
+            180deg,
+            rgba(238, 238, 238, 0),
+            rgba(107, 109, 112, 0.2) 44.5%,
+            rgba(15, 18, 23, 0.72) 86.5%
+        );
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: end;
+        p {
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+            padding: 0 20px;
+            margin: 0px 0px 40px 0px;
+        }
+    }
+}

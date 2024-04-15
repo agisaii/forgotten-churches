@@ -6,20 +6,30 @@
 }
 
 .block-text {
-    &__title {
-        font-family: Merriweather;
+    h1 {
         font-size: 50px;
         font-weight: 700;
         line-height: 63px;
+    }
+    &__title {
+        font-family: Merriweather;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
 
         &:not(:last-child) {
-            margin: 0px 0px 35px 0px;
+            margin: 0px 0px 40px 0px;
         }
     }
 
     &__text {
         &:not(:last-child) {
-            margin: 0px 0px 25px 0px;
+            margin: 0px 0px 30px 0px;
         }
     }
+}
+.colored-text {
+    color: white;
+    background-color: $main-color;
+    border-radius: 0 20px 20px 0;
 }
