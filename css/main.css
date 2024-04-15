@@ -152,7 +152,6 @@ body {
 .colored-text {
   color: white;
   background-color: #817b66;
-  border-radius: 0 20px 20px 0;
 }
 
 .header {
@@ -291,6 +290,7 @@ body {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 3%;
+  border-radius: 0 20px 20px 0;
 }
 
 .examples {
@@ -429,4 +429,30 @@ body {
 }
 .fourpr__image img {
   border-radius: 100px 0px 0px 100px;
+}
+
+.obesp {
+  padding: 60px 0 155px;
+}
+.obesp__container {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.obesp__text {
+  display: flex;
+}
+.obesp__text-top {
+  padding: 50px 60px 50px 500px;
+  margin: 0px 0px 0px -500px;
+  border-radius: 0 20px 20px 0;
+}
+.obesp__text-bottom {
+  padding: 50px 500px 50px 60px;
+  margin: 0px -500px 0px 0px;
+  border-radius: 20px 0 0 20px;
+}
+
+.empty {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

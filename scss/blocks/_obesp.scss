@@ -1,0 +1,25 @@
+.obesp {
+    padding: 60px 0 155px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+    &__text {
+        display: flex;
+    }
+    &__text-top {
+        padding: 50px 60px 50px 500px;
+        margin: 0px 0px 0px -500px;
+        border-radius: 0 20px 20px 0;
+    }
+    &__text-bottom {
+        padding: 50px 500px 50px 60px;
+        margin: 0px -500px 0px 0px;
+        border-radius: 20px 0 0 20px;
+    }
+}
+.empty {
+    width: 100%;
+}
