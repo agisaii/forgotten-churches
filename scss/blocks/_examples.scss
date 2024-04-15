@@ -19,7 +19,7 @@
         text-align: center;
         margin: 0 auto;
         max-width: 890px;
-        padding: 25px 0;
+        padding: 35px 0;
         font-size: 25px;
         letter-spacing: 1px;
     }
@@ -27,6 +27,7 @@
     &__row {
         display: flex;
         margin: 0px 0px 65px 0px;
+        gap: 49px;
     }
 
     &__text {
@@ -38,9 +39,6 @@
 .example {
     &__image {
         position: relative;
-        &:not(:last-child) {
-            margin: 0px 49px 0px 0px;
-        }
         img {
             border-radius: 20px;
         }
@@ -55,7 +53,6 @@
             rgba(15, 18, 23, 0.72) 86.5%
         );
         position: absolute;
-
         bottom: 0;
         left: 0;
         display: flex;

@@ -1,0 +1,31 @@
+.fourpr {
+    background-color: $bg-color;
+    &__container {
+        padding: 155px 0;
+        display: flex;
+        position: relative;
+    }
+
+    &__content {
+        max-width: 581px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__image {
+        position: absolute;
+        width: 100vw;
+        right: 480px;
+        top: 60px;
+        transform: translate(100%, 0);
+
+        img {
+            border-radius: 100px 0px 0px 100px;
+        }
+    }
+}
+
+.block-text {
+    &__text {
+    }
+}
